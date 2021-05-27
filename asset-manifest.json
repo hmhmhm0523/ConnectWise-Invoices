@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ConnectWise-Invoices/static/css/main.f2ab43ab.chunk.css",
+    "main.js": "/ConnectWise-Invoices/static/js/main.793979ae.chunk.js",
+    "main.js.map": "/ConnectWise-Invoices/static/js/main.793979ae.chunk.js.map",
+    "runtime-main.js": "/ConnectWise-Invoices/static/js/runtime-main.d41da0c7.js",
+    "runtime-main.js.map": "/ConnectWise-Invoices/static/js/runtime-main.d41da0c7.js.map",
+    "static/js/2.a61f4799.chunk.js": "/ConnectWise-Invoices/static/js/2.a61f4799.chunk.js",
+    "static/js/2.a61f4799.chunk.js.map": "/ConnectWise-Invoices/static/js/2.a61f4799.chunk.js.map",
+    "static/js/3.dbc45fc2.chunk.js": "/ConnectWise-Invoices/static/js/3.dbc45fc2.chunk.js",
+    "static/js/3.dbc45fc2.chunk.js.map": "/ConnectWise-Invoices/static/js/3.dbc45fc2.chunk.js.map",
+    "index.html": "/ConnectWise-Invoices/index.html",
+    "static/css/main.f2ab43ab.chunk.css.map": "/ConnectWise-Invoices/static/css/main.f2ab43ab.chunk.css.map",
+    "static/js/2.a61f4799.chunk.js.LICENSE.txt": "/ConnectWise-Invoices/static/js/2.a61f4799.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/ConnectWise-Invoices/static/media/contentPanel.e8690cb1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d41da0c7.js",
+    "static/js/2.a61f4799.chunk.js",
+    "static/css/main.f2ab43ab.chunk.css",
+    "static/js/main.793979ae.chunk.js"
+  ]
+}

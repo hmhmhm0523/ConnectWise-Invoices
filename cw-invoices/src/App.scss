@@ -1,0 +1,261 @@
+$primaryColor: #026ccf;
+$secondaryColor: #3489d8;
+$selectedColor: #014b90;
+$borderColor: #e6e6e6;
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+
+  * {
+    user-select: none;
+  }
+  .header {
+    height: 60px;
+    border-bottom: 1px solid $borderColor;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .logo {
+      background-image: url(connectWiseLogo.png);
+      width: 200px;
+      height: 30px;
+      margin: 15px 15px 15px 25px;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    .profile {
+      width: 32px;
+      height: 32px;
+      background-color: #7d7d7d;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+  }
+  .contentPanel {
+    display: flex;
+    height: 100%;
+    flex-grow: 1;
+    position: relative;
+
+    .leftNavi {
+      background-color: $primaryColor;
+      transition: width 0.15s;
+      width: 250px;
+      overflow-x: hidden;
+      z-index: 100;
+
+      * {
+        flex-shrink: 0;
+      }
+
+      &.collapsed {
+        width: 72px;
+        transition: width 0.15s;
+        h4,
+        .level2Item,
+        .level1Children,
+        .pinButton {
+          display: none;
+        }
+      }
+
+      .topBar {
+        padding: 0 24px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+
+        .leftArrow {
+          background-image: url(img/Back.svg);
+        }
+
+        .rightArrow {
+          background-image: url(img/Back.svg);
+
+          transform: rotate(180deg);
+        }
+
+        .pinButton {
+          background-image: url(img/Pin.svg);
+
+          &.pined {
+            transform: rotate(-45deg);
+          }
+        }
+      }
+      .navigationContainer {
+        color: #E6E6E6;
+        .group {
+          border-top: 1px solid $secondaryColor;
+          > * {
+            line-height: 40px;
+
+            font-size: 14px;
+          }
+          h4 {
+            margin: 0;
+            padding: 0 24px;
+            color: #E6E6E6;
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+          .level1 {
+            &.expanded {
+              .level1Children {
+                display: block;
+              }
+
+              .chevronIcon {
+                transform: rotate(0deg);
+              }
+            }
+            .level1Item {
+              padding: 0 24px;
+              &:hover {
+                background-color: $secondaryColor;
+              }
+              display: flex;
+              align-items: center;
+              span {
+                margin-left: 24px;
+                flex-grow: 1;
+              }
+            }
+            .level1Children {
+              display: none;
+              margin: 0;
+              list-style-type: none;
+              padding: 0;
+
+              .level2Item {
+                padding-left: 72px;
+                &.selected {
+                  background-color: $selectedColor;
+                  box-shadow: inset 7px 0 $primaryColor;
+                  color: white;
+                  font-weight: bold;
+                }
+                &:hover {
+                  background-color: $secondaryColor;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .table {
+      flex-grow: 1;
+      position: absolute;
+      top: 0;
+      left: 72px;
+      bottom: 0;
+      right: 0;
+      background-image: url(contentPanel.svg);
+      background-size: auto 1000px;
+      background-repeat: no-repeat;
+
+      &.pined {
+        left: 250px;
+        &.collapsed {
+          left: 72px;
+        }
+      }
+    }
+    .toolbar {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      background-color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 8px 0;
+      width: 40px;
+      border-left: 1px solid $borderColor;
+    }
+  }
+}
+
+.flexSpacer {
+  flex-grow: 1;
+}
+
+.iconCircle {
+  width: 24px;
+  height: 24px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 8px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  cursor: pointer;
+
+  &.deviceIcon {
+    background-image: url(img/Devices.svg);
+  }
+
+  &.chevronIcon {
+    background-image: url(img/Chevron.svg);
+    transform: rotate(-90deg);
+  }
+  &.automationIcon {
+    background-image: url(img/Automation.svg);
+  }
+  &.alertIcon {
+    background-image: url('img/Alert Management.svg');
+  }
+  &.reportingIcon {
+    background-image: url(img/Reports.svg);
+  }
+  &.integrationsIcon {
+    background-image: url(img/Integrations.svg);
+  }
+  &.elementsIcon {
+    background-image: url(img/Elements.svg);
+  }
+  &.packagesIcon {
+    background-image: url(img/Packages.svg);
+  }
+  &.policiesIcon {
+    background-image: url(img/Policies.svg);
+  }
+  &.dashboardIcon {
+    background-image: url(img/Dashboard.svg);
+  }
+  &.quickAccessIcon {
+    background-image: url('img/Quick Access.svg');
+  }
+  &.patchesIcon {
+    background-image: url(img/Patching.svg);
+  }
+  &.scriptsIcon {
+    background-image: url(img/Scripts.svg);
+  }
+  &.reportsIcon {
+    background-image: url(img/Reports.svg);
+  }
+  &.adminIcon {
+    background-image: url('img/Business Profile.svg');
+  }
+  &.rmmSetupIcon {
+    background-image: url(img/RMM.svg);
+  }
+  &.bdrIcon {
+    background-image: url(img/BDR.svg);
+  }
+  &.securityIcon {
+    background-image: url(img/Security.svg);
+  }
+}

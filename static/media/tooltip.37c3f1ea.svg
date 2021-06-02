@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="396px" height="230px" viewBox="0 0 396 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 22</title>
+    <defs>
+        <path d="M29.5,2 L39,14 L372,14 C374.209139,14 376,15.790861 376,18 L376,205.5 C376,207.709139 374.209139,209.5 372,209.5 L4,209.5 C1.790861,209.5 2.705415e-16,207.709139 0,205.5 L0,18 C-2.705415e-16,15.790861 1.790861,14 4,14 L20,14 L29.5,2 Z" id="path-1"></path>
+        <filter x="-4.3%" y="-7.3%" width="108.5%" height="116.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.8   0 0 0 0 0.8   0 0 0 0 0.8  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="88" height="28" rx="4"></rect>
+        <filter x="-6.2%" y="-12.5%" width="112.5%" height="139.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="88" height="28" rx="4"></rect>
+        <filter x="-6.2%" y="-12.5%" width="112.5%" height="139.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="88" height="28" rx="4"></rect>
+        <filter x="-6.2%" y="-12.5%" width="112.5%" height="139.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Flow---Review" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Invoices---1C" transform="translate(-722.000000, -562.000000)">
+            <g id="Group-22" transform="translate(732.000000, 569.985171)">
+                <g id="Prompt-/-Popup-/-Right">
+                    <g id="📄-Elevation" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M29.5,2 L39,14 L372,14 C374.209139,14 376,15.790861 376,18 L376,205.5 C376,207.709139 374.209139,209.5 372,209.5 L4,209.5 C1.790861,209.5 2.705415e-16,207.709139 0,205.5 L0,18 C-2.705415e-16,15.790861 1.790861,14 4,14 L20,14 L29.5,2 Z" id="🎨-Fill" fill="#FFFFFF"></path>
+                    <path d="M29.5,2 L39,14 L372,14 C374.209139,14 376,15.790861 376,18 L376,205.5 C376,207.709139 374.209139,209.5 372,209.5 L4,209.5 C1.790861,209.5 2.705415e-16,207.709139 0,205.5 L0,18 C-2.705415e-16,15.790861 1.790861,14 4,14 L20,14 L29.5,2 Z" id="🔲-Border" fill="#FFFFFF"></path>
+                </g>
+                <text id="This-invoice-does-no" font-family="Helvetica" font-size="14" font-weight="normal" line-spacing="24" fill="#212121">
+                    <tspan x="24" y="46.5">This invoice does not meet the following policy:</tspan>
+                </text>
+                <text id="After-Hours-time-gre" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" line-spacing="28" fill="#333333">
+                    <tspan x="24" y="85.5">After Hours time greater than 1 hour</tspan>
+                </text>
+                <text id="Source:-Ticket-#1056" font-family="Helvetica" font-size="14" font-weight="normal" line-spacing="24">
+                    <tspan x="24" y="105.5" fill="#212121">Source: </tspan>
+                    <tspan x="75.8916016" y="105.5" fill="#026CCF">Ticket #105661</tspan>
+                </text>
+                <text id="How-would-you-like-t" font-family="Helvetica" font-size="14" font-weight="normal" line-spacing="24" fill="#212121">
+                    <tspan x="24" y="139.5">How would you like to proceed?</tspan>
+                </text>
+                <g id="Button-/-Primary-/-*Default-/-Text" transform="translate(24.000000, 157.500000)">
+                    <g id="📄-elevation" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    </g>
+                    <rect id="🎨-fill" fill="#026CCF" x="0" y="0" width="88" height="28" rx="4"></rect>
+                    <rect id="🔲-border" x="0" y="0" width="88" height="28" rx="4"></rect>
+                    <text id="✏️-text" font-family="Helvetica" font-size="14" font-weight="normal" line-spacing="20" fill="#FFFFFF">
+                        <tspan x="17.9277344" y="18">Approve</tspan>
+                    </text>
+                </g>
+                <g id="Button-/-Primary-/-*Default-/-Text" transform="translate(128.000000, 157.500000)">
+                    <g id="📄-elevation" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    </g>
+                    <rect id="🎨-fill" fill="#026CCF" x="0" y="0" width="88" height="28" rx="4"></rect>
+                    <rect id="🔲-border" x="0" y="0" width="88" height="28" rx="4"></rect>
+                    <text id="✏️-text" font-family="Helvetica" font-size="14" font-weight="normal" line-spacing="20" fill="#FFFFFF">
+                        <tspan x="21.8208008" y="18">Detach</tspan>
+                    </text>
+                </g>
+                <g id="Button-/-Primary-/-*Default-/-Text" transform="translate(232.000000, 157.500000)">
+                    <g id="📄-elevation" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    </g>
+                    <rect id="🎨-fill" fill="#026CCF" x="0" y="0" width="88" height="28" rx="4"></rect>
+                    <rect id="🔲-border" x="0" y="0" width="88" height="28" rx="4"></rect>
+                    <text id="✏️-text" font-family="Helvetica" font-size="14" font-weight="normal" line-spacing="20" fill="#FFFFFF">
+                        <tspan x="30.3828125" y="18">Flag</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

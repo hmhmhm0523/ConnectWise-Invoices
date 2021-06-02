@@ -36,7 +36,7 @@ function App() {
           onMouseEnter={() => isPined ? '' : setCollapse(false)}
           onMouseLeave={() => isPined ? '' : setCollapse(true)}>
           <div className='topBar'>
-            <div onClick={handleToggleCollapse} className={`icon ${isCollapse ? 'rightArrow' : 'leftArrow'}`}></div>
+            <div className={`icon ${isCollapse ? 'rightArrow' : 'leftArrow'}`}></div>
             <div className='flexSpacer'></div>
             <div onClick={handleTogglePined} className={`pinButton icon ${isPined ? 'pined' : ''}`}></div>
           </div>
@@ -95,7 +95,16 @@ function App() {
 
           </div>
         </div>
-        <div className={`table ${isPined ? 'pined' : ''} ${isCollapse ? 'collapsed' : ''}`}>
+        <div className='warper'>
+          <div className={`table ${isPined ? 'pined' : ''} ${isCollapse ? 'collapsed' : ''}`}>
+            <div className='card'></div>
+          </div>
+          <div className='flyoutPanel'>
+          <div className='warningIcon'></div>
+          <div className='tooltip'></div>
+
+          </div>
+
         </div>
         <div className='toolbar'>
           <div className='iconCircle'></div>
